@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+			
+			
+input.frequence{
+	width:75px;
+}
+select{
+	min-width:60px;
+}
+input[type="button"]{
+	width:80px;
+	height:20px;
+	margin-left:10px;
+	font-size:15px;
+	border-style:none;
+	background-color:rgb(25,118,210);
+	color:#ffffff;
+	border-radius:5px;
+}
+			
+
+table{
+	
+	margin-top:10px;
+}
+table caption {
+	text-align: left;
+	font-size: 20px;
+	background-color:#63BAD0;
+	
+}
+table th,td{
+	white-space:nowrap;
+	text-align:center;
+	background-color:#ffffff;
+}
+
+.wrap{
+	max-width:150px;
+	
+	white-space:nowrap;/*不换行*/
+	text-overflow:ellipsis;/*超出部分用...代替*/
+	overflow:hidden;
+}

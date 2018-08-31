@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+		body{
+			margin:0;
+			padding:0;
+			text-align:center;
+			background-image:url(/rsui/js/index.JPG);
+			background-size:100%;
+			background-repeat: no-repeat;
+			/*font-family:楷体;*/
+		}
+		#sysName{
+			width:100%;
+			position:absolute;
+			top:25%;
+			margin:0 auto;
+			height:70px;
+			font-family:Microsoft YaHei;/*FZYaoti*//**/
+			color:#330066;
+			line-height:50px;
+			font-size:68px;/*
+			background-image:url(/rsui/js/SystemName.PNG);
+			background-repeat: no-repeat;*/
+		}
+		
+		
+		#sysName font{
+			/*float:left;*/
+			/*padding-left:10px;
+			/*margin-left:-10%;*/
+		}
+		#login{
+			position:absolute;
+			left:50%;
+			top:70%;
+			width:280px;
+			height:195px;
+			margin-left:-140px;
+			margin-top:-120px;
+			background-color:rgba(51,102,153,0.6);
+		}
+		#foot{
+			position:absolute;
+			bottom:0;
+			right:0;
+			margin-right:100px;
+			margin-bottom:36px;
+		}
+		table{
+			margin:20px auto;
+			
+		}
+		td {
+			width:75px;
+			font-size:20px;
+			text-align:left;	
+			
+			
+		}
+		input{
+			height:40px;
+			width:155px;
+			border-radius:5px;
+			border:none;
+			margin:3px 0px;
+			font-size:15px;
+			line-height:20px;
+		}
+		input#Txtidcode{
+			float:left;
+			width:75px;
+		}
+		#idcode{
+			display:block;
+			float:right;
+			width:75px;
+			height:40px;
+			border:1px solid;
+			border-radius:5px;
+			margin:3px 0px;
+		}

@@ -1,0 +1,84 @@
+body,html{
+	
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#all{
+	
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#middle{
+	
+	position:absolute;
+	width:100%;
+	top:48px;
+	bottom:1px;
+}
+#menu{
+	
+	width:18%;
+	
+}
+
+#content{
+	
+	position:absolute;
+	margin-left:20%;
+	padding:1px 0px 0px 0px;
+	height:100%;
+	width:80%;
+	/*overflow:auto;*/
+}
+/*查询和分析的相应区域*/
+#response{
+	
+	position:absolute;
+	top:150px;
+	bottom:0px;
+	width:100%;
+	overflow:auto;
+}
+#response1{
+	
+	margin-top:10px;
+	font-size:18px;
+	margin-right:100px;
+}
+#response2{
+	top:500px;
+	bottom:0px;
+	width:100%;
+	overflow:auto;
+
+}
+#hr{
+	position:absolute;
+	left:18%;
+	height:100%;
+	border-left:1px solid;
+	z-index:-1;
+}
+/*
+.userinfo th{
+		
+	width:80px;
+	font-size:15px;
+	text-align:center;
+}
+.userinfo td{
+	
+	font-size:14px;
+	text-align:center;
+}
+.userinfo input{
+	
+	height:20px;
+	
+	border-style:none;
+	background-color:rgb(25,118,210);
+	color:#ffffff;
+	border-radius:5px;
+}*/
