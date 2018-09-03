@@ -1,0 +1,126 @@
+﻿  adapter.cpp
+e:\c++\opc_840d\opc_840d\adapter.cpp(70): warning C4190: “inquireID”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Json::Value”
+  e:\c++\opc_840d\opc_840d\include\writer.h(25): note: 参见“Json::Value”的声明
+e:\c++\opc_840d\opc_840d\adapter.cpp(128): warning C4190: “setID”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Json::Value”
+  e:\c++\opc_840d\opc_840d\include\writer.h(25): note: 参见“Json::Value”的声明
+e:\c++\opc_840d\opc_840d\adapter.cpp(177): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(181): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(189): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(193): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(214): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(218): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(223): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(227): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(250): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(254): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(266): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(311): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(315): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(329): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(333): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(356): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(360): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(382): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(386): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(411): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(428): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(432): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(449): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(453): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(471): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(475): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(489): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(493): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(528): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(532): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(548): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(552): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(567): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(571): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(586): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(590): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(613): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(617): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(643): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(647): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(682): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(686): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(694): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(698): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(721): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(725): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(733): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(737): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(787): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(791): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(810): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(814): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(827): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(831): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(843): warning C4244: “参数”: 从“DWORD”转换到“const char”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(846): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(850): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(877): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(881): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(963): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(967): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(988): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(992): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++\opc_840d\opc_840d\adapter.cpp(864): warning C4101: “temp”: 未引用的局部变量
+lib_json.lib(json_value.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+lib_json.lib(json_reader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+lib_json.lib(json_writer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __cdecl std::locale::id::operator unsigned __int64(void)" (??Bid@locale@std@@QEAA_KXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: bool __cdecl std::ios_base::operator!(void)const " (??7ios_base@std@@QEBA_NXZ) 已经在 lib_json.lib(json_reader.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void)" (??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 lib_json.lib(json_value.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) 已经在 lib_json.lib(json_reader.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 lib_json.lib(json_reader.obj) 中定义
+libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z) 已经在 msvcprtd.lib(locale0_implib.obj) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPEAV12@PEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2005: "public: static unsigned __int64 __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QEAA@H@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QEAA@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(xwctomb.obj) : error LNK2005: _Getcvt 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(winapisupp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(winapinls.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(StlCompareStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(StlLCMapStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(adapter.obj 中)
+    正在创建库 E:\C++\opc_840d\x64\Debug\opc_840d.lib 和对象 E:\C++\opc_840d\x64\Debug\opc_840d.exp
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+E:\C++\opc_840d\x64\Debug\opc_840d.dll : fatal error LNK1169: 找到一个或多个多重定义的符号
