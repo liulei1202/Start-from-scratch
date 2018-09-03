@@ -1,0 +1,800 @@
+{
+    "name": "NC_LINK_EXAMPLE",
+    "id": "ALLMACHINE",
+    "type": "NC_LINK_ROOT",
+    "description": "A NC_LINK instance given by NC_LINK Group",
+    "uuid": "37168bc7-2f38-46c4-b3b6-999999999999",
+    "configs": [
+        {
+            "creationTime": "2017-06-07T23:45:34Z"
+        },
+        {
+            "creationBy": "NC_LINK Group"
+        }
+    ],
+
+    "devices": [
+        {
+            "name": "Machine_01",
+            "id": "dev",
+            "type": "NC_LINK_DEVICE",
+            "description": "机床模型",
+            "uuid": "16D503F6-D226-4638-BF27-EE5A0F4E5329",
+            "configs": [
+                {
+                    "name": "sampleProbe",
+                    "id": "sampleProbe",
+                    "type": "SAMPLE_PROBE",
+                    "description": "Sample文件内容，用于数据采集项描述",
+                    "setable": true
+                },
+                {
+                    "id": "regvar",
+                    "type": "CUSTOM",
+                    "subtype": "REG_VAR",
+                    "descritpion": "寄存器变量",
+                    "setable": true
+                },
+                {
+                    "id": "regvar7",
+                    "type": "CUSTOM",
+                    "subtype": "REG_VAR",
+                    "index": "X:7",
+                    "descritpion": "编号为7的X寄存器变量",
+                    "setable": true
+                }
+            ],
+            "dataItems": [],
+            "components": [
+                {
+                    "name": "系统变量",
+                    "id": "HNCMachine:System",
+                    "type": "System",
+                    "description": "系统变量",
+                    "uuid": "07BF6BD6-128B-468a-A752-578BC9C30467",
+                    "configs": [
+                        {
+                            "name": "NCK版本",
+                            "id": "HNCMachine:System:NCK_VER",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "系统变量10000",
+                            "id": "HNCMachine:Variable:System:10000",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "通道",
+                    "id": "HNCMachine:Channel:0",
+                    "type": "Channel",
+                    "description": "通道",
+                    "uuid": "B592830D-8C74-404a-AC88-FA91BA78DFE3",
+                    "configs": [
+                        {
+                            "name": "通道名",
+                            "id": "HNCMachine:Channel:0:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "通道0变量2000",
+                            "id": "HNCMachine:Variable:Channel:0:2000",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "轴X",
+                    "id": "HNCMachine:Axis:0",
+                    "type": "Axis",
+                    "description": "轴X",
+                    "uuid": "52C0C30E-E831-43db-B1EC-6908B881402B",
+                    "configs": [
+                        {
+                            "name": "轴名",
+                            "id": "HNCMachine:Axis:0:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "轴的指令位置",
+                            "id": "HNCMachine:Axis:0:AXIS_CMD",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "轴0变量400",
+                            "id": "HNCMachine:Variable:Axis:0:400",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "轴Y",
+                    "id": "HNCMachine:Axis:1",
+                    "type": "Axis",
+                    "description": "轴Y",
+                    "uuid": "16F4FEAE-5D75-48d0-80E1-F61C319E3650",
+                    "configs": [
+                        {
+                            "name": "轴名",
+                            "id": "HNCMachine:Axis:1:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "轴的指令位置",
+                            "id": "HNCMachine:Axis:1:AXIS_CMD",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "轴1变量400",
+                            "id": "HNCMachine:Variable:Axis:1:400",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "轴Z",
+                    "id": "HNCMachine:Axis:2",
+                    "type": "Axis",
+                    "description": "轴Z",
+                    "uuid": "9AF263F9-7833-4811-A045-6717E470D4E9",
+                    "configs": [
+                        {
+                            "name": "轴名",
+                            "id": "HNCMachine:Axis:2:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "轴的指令位置",
+                            "id": "HNCMachine:Axis:2:AXIS_CMD",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "轴2变量400",
+                            "id": "HNCMachine:Variable:Axis:2:400",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "轴",
+                    "id": "HNCMachine:Axis:3",
+                    "type": "Axis",
+                    "description": "轴",
+                    "uuid": "A7A1A2E6-804F-4b28-BBA3-9611D7D83C8B",
+                    "configs": [
+                        {
+                            "name": "轴名",
+                            "id": "HNCMachine:Axis:3:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "轴的指令位置",
+                            "id": "HNCMachine:Axis:3:AXIS_CMD",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "轴3变量400",
+                            "id": "HNCMachine:Variable:Axis:3:400",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "轴",
+                    "id": "HNCMachine:Axis:4",
+                    "type": "Axis",
+                    "description": "轴",
+                    "uuid": "73E544A7-6F9F-4cb6-938F-00A28F1B15D0",
+                    "configs": [
+                        {
+                            "name": "轴名",
+                            "id": "HNCMachine:Axis:4:NAME",
+                            "type": "string",
+                            "description": "",
+                            "setable": false
+                        }
+                    ],
+                    "dataItems": [
+                        {
+                            "name": "轴的指令位置",
+                            "id": "HNCMachine:Axis:4:AXIS_CMD",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "轴4变量400",
+                            "id": "HNCMachine:Variable:Axis:4:400",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "寄存器",
+                    "id": "HNCMachine:Register",
+                    "type": "Register",
+                    "description": "寄存器",
+                    "uuid": "BF95684A-0271-47a2-BAAF-BA7CC4E0B26F",
+                    "configs": [],
+                    "dataItems": [
+                        {
+                            "name": "X寄存器512",
+                            "id": "HNCMachine:Register:X:512",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "Y寄存器512",
+                            "id": "HNCMachine:Register:Y:512",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "R寄存器2048",
+                            "id": "HNCMachine:Register:R:2048",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "F寄存器3728",
+                            "id": "HNCMachine:Register:F:3728",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "G寄存器3728",
+                            "id": "HNCMachine:Register:G:3728",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        },
+                        {
+                            "name": "B寄存器1722",
+                            "id": "HNCMachine:Register:B:1722",
+                            "type": "",
+                            "category": 0,
+                            "subtype": "",
+                            "units": "",
+                            "sampleRate": -1,
+                            "relativeItems": []
+                        }
+                    ],
+                    "components": []
+                },
+                {
+                    "name": "用户宏变量",
+                    "id": "HNCMachine:MacroVariable",
+                    "type": "MacroVariable",
+                    "description": "用户宏变量",
+                    "uuid": "42908A79-33C0-4d30-9501-653A9F08A1C8",
+                    "configs": [
+                        {
+                            "name": "用户宏变量55000",
+                            "id": "HNCMachine:MacroVariable:55000",
+                            "type": "number",
+                            "description": "",
+                            "setable": true
+                        }
+                    ],
+                    "dataItems": [],
+                    "components": []
+                }
+            ],
+            "custom": [
+                {
+                    "subtype": "REG_VAR",
+                    "description": "寄存器变量,index指明编号"
+                },
+                {
+                    "subtype": "MACRO_VAR",
+                    "description": "宏变量，index指明编号"
+                },
+                {
+                    "subtype": "PARAM_VAR",
+                    "description": "参数变量，index指明编号"
+                },
+                {
+                    "subtype": "JOBID",
+                    "description": "任务编号，每个G代码一个编号"
+                }
+            ]
+        },
+         {
+            "name": "Machine_02",
+            "id": "dev",
+            "type": "NC_LINK_DEVICE",
+            "uuid": "37168bc7-2f38-46c4-b3b6-8d8851e07263",
+            "description": "3Axis example from http://agent.mtconnect.org/probe",
+            "configs": [
+                { "version": "1.0" },
+                { "isoclassid": "6" },
+                { "manufacturer": "SystemInsights" },
+                {
+                    "name": "sampleProbe",
+                    "id": "sampleProbe",
+                    "type": "SAMPLE_PROBE",
+                    "description": "Sample文件内容，用于数据采集项描述",
+                    "setable": true
+                }
+            ],
+            "dataItems": [
+                {
+                    "category": "EVENT",
+                    "id": "avail",
+                    "type": "AVAILABILITY"
+                },
+                {
+                    "category": "EVENT",
+                    "id": "dev_asset_chg",
+                    "type": "ASSET_CHANGED"
+                },
+                {
+                    "category": "EVENT",
+                    "id": "dev_asset_rem",
+                    "type": "ASSET_REMOVED"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Axes",
+                    "id": "ax",
+                    "type": "Axes",
+                    "description": "a set of 3 axes",
+                    "components": [
+                        {
+                            "name": "X",
+                            "id": "x1",
+                            "type": "Linear",
+                            "dataItems": [
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Xact",
+                                    "id": "x2",
+                                    "subtype": "ACTUAL",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Xcom",
+                                    "id": "x3",
+                                    "subtype": "COMMANDED",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "LOAD",
+                                    "name": "Xload",
+                                    "id": "n3",
+                                    "units": "PERCENT"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Xloadc",
+                                    "type": "LOAD"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Xsystem",
+                                    "type": "SYSTEM"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Y",
+                            "id": "y1",
+                            "type": "Linear",
+                            "dataItems": [
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Yact",
+                                    "id": "y2",
+                                    "subtype": "ACTUAL",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Ycom",
+                                    "id": "y3",
+                                    "subtype": "COMMANDED",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "LOAD",
+                                    "name": "Yload",
+                                    "id": "y4",
+                                    "units": "PERCENT"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Yloadc",
+                                    "type": "LOAD"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Ysystem",
+                                    "type": "SYSTEM"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Z",
+                            "id": "z1",
+                            "type": "Linear",
+                            "dataItems": [
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Zact",
+                                    "id": "z2",
+                                    "subtype": "ACTUAL",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "POSITION",
+                                    "name": "Zcom",
+                                    "id": "z3",
+                                    "subtype": "COMMANDED",
+                                    "units": "MILLIMETER"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "LOAD",
+                                    "name": "Zload",
+                                    "id": "z4",
+                                    "units": "PERCENT"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Zloadc",
+                                    "type": "LOAD"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "id": "Zsystem",
+                                    "type": "SYSTEM"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "id": "c1",
+                            "type": "Rotary",
+                            "dataItems": [
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "ROTARY_VELOCITY",
+                                    "name": "Sspeed",
+                                    "id": "c2",
+                                    "subtype": "ACTUAL",
+                                    "units": "REVOLUTION/MINUTE"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "ROTARY_VELOCITY",
+                                    "name": "Sovr",
+                                    "id": "c3",
+                                    "subtype": "OVERRIDE",
+                                    "units": "PERCENT"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "LOAD",
+                                    "name": "Cload",
+                                    "id": "cl3",
+                                    "units": "PERCENT"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "ROTARY_MODE",
+                                    "name": "Cmode",
+                                    "id": "cm"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "LOAD",
+                                    "id": "Cloadc"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "SYSTEM",
+                                    "id": "Csystem"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "controller",
+                    "id": "cn1",
+                    "type": "Controller",
+                    "description": "Controller component",
+                    "dataItems": [
+                        {
+                            "category": "EVENT",
+                            "id": "msg",
+                            "type": "MESSAGE"
+                        },
+                        {
+                            "category": "EVENT",
+                            "id": "estop",
+                            "type": "EMERGENCY_STOP"
+                        },
+                        {
+                            "category": "EXCEPTION",
+                            "id": "clp",
+                            "type": "LOGIC_PROGRAM"
+                        },
+                        {
+                            "category": "EXCEPTION",
+                            "id": "motion",
+                            "type": "MOTION_PROGRAM"
+                        },
+                        {
+                            "category": "EXCEPTION",
+                            "id": "system",
+                            "type": "SYSTEM"
+                        }
+                    ],
+                    "components": [
+                        {
+                            "name": "path",
+                            "id": "pth",
+                            "type": "Path",
+                            "description": "通道",
+                            "configs": [
+                                {
+                                    "name": "GCodeFile",
+                                    "id": "gf",
+                                    "type": "string",
+                                    "description": "G代码文件名"
+                                },
+                                {
+                                    "name": "Jobid",
+                                    "id": "job",
+                                    "type": "string",
+                                    "description": "任务号"
+                                }
+                            ],
+                            "dataItems": [
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "PATH_POSITION",
+                                    "id": "Ppos",
+                                    "subtype": "ACTUAL",
+                                    "units": "MILLIMETER_3D"
+                                },
+                                {
+                                    "category": "SAMPLE",
+                                    "type": "PATH_FEEDRATE",
+                                    "id": "Frt",
+                                    "units": "MILLIMETER/SECOND"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "BLOCK",
+                                    "name": "block",
+                                    "id": "cn2"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "CONTROLLER_MODE",
+                                    "name": "mode",
+                                    "id": "cn3"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "LINE",
+                                    "subtype": "ABSOLUTE",
+                                    "name": "line",
+                                    "id": "cn4",
+                                    "relativeItems": [ "cn5", "gf", "job" ]
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "PROGRAM",
+                                    "name": "program",
+                                    "id": "cn5"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "EXECUTION",
+                                    "name": "execution",
+                                    "id": "cn6"
+                                },
+                                {
+                                    "category": "EVENT",
+                                    "type": "TOOL_ID",
+                                    "name": "toold_id",
+                                    "id": "cnt1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "auxiliaries",
+                    "id": "auxiliaries",
+                    "type": "Auxiliaries",
+                    "description": "Auxiliaries components",
+                    "components": [
+                        {
+                            "name": "electric",
+                            "id": "el",
+                            "type": "Electric",
+                            "description": "Electric component",
+                            "dataItems": [
+                                {
+                                    "category": "EVENT",
+                                    "type": "POWER_STATE",
+                                    "id": "p2",
+                                    "name": "power"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "coolant",
+                            "id": "cool",
+                            "type": "Coolant",
+                            "description": "Coolant component",
+                            "dataItems": [
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "LEVEL",
+                                    "id": "clow"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "PRESSURE",
+                                    "id": "coolpres"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "ACTUATOR",
+                                    "id": "coolantmotor"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "hydrolic",
+                            "id": "hsys",
+                            "type": "Hydraulic",
+                            "description": "Hydraulic component",
+                            "dataItems": [
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "LEVEL",
+                                    "id": "hlow"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "PRESSURE",
+                                    "id": "hpres"
+                                },
+                                {
+                                    "category": "EXCEPTION",
+                                    "type": "TEMPERATURE",
+                                    "id": "htemp"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

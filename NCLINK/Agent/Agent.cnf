@@ -1,0 +1,156 @@
+[
+    {
+        "type": "SetSampleProbe",
+        "name": "NC_LINK_EXAMPLE/Machine_01",
+        "dllpath": "Adapter_01.dll",
+        "ip": "192.168.0.1",
+        "port": 9999,
+        "interval": 1000,
+        "setValues": [
+            {
+                "id": "sampleProbe",
+                "data": {
+                    "type": "BLOCK_SAMPLE",
+                    "id": "d1",
+                    "groupby": "e1",
+                    "samples": [
+                        {
+                            "id": "Register",
+                            "index": "HNCMachine:Register:X:1",
+                            "data": "1"
+                        },
+                        {
+                            "id": "Register",
+                            "index": "HNCMachine:Register:Y:2",
+                            "data": "1"
+                        }
+                    ],
+                    "events": [],
+                    "exceptions": []
+                }
+            }
+        ]
+    },
+    {
+        "type": "SetSampleProbe",
+        "name": "NC_LINK_BH/840D_01",
+        "dllpath":"opc_840d.dll",
+        "ip": "127.0.0.1",
+        "port": 8899,
+        "interval": 1000,
+        "setValues": [
+            {
+                "id": "sampleProbe",
+                "data": {
+                    "type": "BLOCK_SAMPLE",
+                    "id": "d1",
+                    "groupby": "e1",
+                    "samples": [
+                        {
+                            "id": "x2"
+                        },
+                        {
+                            "id": "x3"
+                        }
+                    ],
+                    "events": [
+                        {
+                            "id": "line"
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "id": "ehtemp"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "SetSampleProbe",
+        "name": "GS25i_01",
+        "ip": "127.0.0.1",
+        "port": 8800,
+        "interval": 1000,
+        "setValues": [
+            {
+                "id": "sampleProbe",
+                "data": {
+                    "type": "SEQUENCE_SAMPLE",
+                    "id": "d1",
+                    "groupby": "e1",
+                    "samples": [
+                        {
+                            "id": "x2"
+                        },
+                        {
+                            "id": "x3"
+                        },
+                        {
+                            "id": "x4"
+                        },
+                        {
+                            "id": "x5"
+                        },
+                        {
+                            "id": "y2"
+                        },
+                        {
+                            "id": "y3"
+                        },
+                        {
+                            "id": "y4"
+                        },
+                        {
+                            "id": "y5"
+                        },
+                        {
+                            "id": "z2"
+                        },
+                        {
+                            "id": "z3"
+                        },
+                        {
+                            "id": "z4"
+                        },
+                        {
+                            "id": "z5"
+                        },
+                        {
+                            "id": "c2"
+                        },
+                        {
+                            "id": "c3"
+                        },
+                        {
+                            "id": "c4"
+                        },
+                        {
+                            "id": "c5"
+                        }
+                    ],
+                    "events": [
+                        {
+                            "id": "codeline"
+                        },
+                        {
+                            "id": "gf"
+                        },
+                        {
+                            "id": "runstatus"
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "id": "systemExceptin"
+                        },
+                        {
+                            "id": "exceptionContent"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

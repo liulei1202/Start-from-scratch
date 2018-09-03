@@ -1,0 +1,127 @@
+package web;
+
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Date;
+import java.net.Socket;
+ 
+ 
+//每有一个连接建立时，服务器分出一个通信的线程
+public class CommunicateThread extends Thread{
+	//与客户端通信的套接字
+	Socket client;
+	
+	public CommunicateThread(Socket s) {
+		client = s;
+	}
+	
+	//获取浏览器请求资源的路径
+	public String getResourcePath(String s){
+		// 一般的HTTP请求报文的第一行是“GET /index.html HTTP/1.1”
+		// 我们要获取的就是中间的"/indext.apsx"
+		System.out.println(s);
+		//获取资源的位置
+		String s1 = s.substring(s.indexOf(' ')+1);
+		s1 = s1.substring(1,s1.indexOf(' '));
+		
+		//默认资源为index.html
+		if(s1.equals(""))
+			s1 = "index.html";
+		
+		return s1;
+	}
+ 
+	public void sendFile(PrintStream out,File file){
+		try{
+			DataInputStream in  = new DataInputStream(new FileInputStream(file));
+			int len = (int)file.length();
+			byte buf[] = new byte[len];
+			in.readFully(buf);//读取文内容到buf数组中
+			out.write(buf,0,len);
+			out.flush();
+			in.close();
+		}
+		catch(Exception e){
+			System.out.println(e.getMessage());
+			System.exit(1);
+			}
+	}
+	
+	@SuppressWarnings("deprecation")
+	public void run(){
+		try{
+			//获取用户的IP地址和端口号
+			String clientIP = client.getInetAddress().toString();
+			int clientPort = client.getPort();
+			// 创建Request对象并予以解析
+            
+			//创建输出流对象
+			PrintStream out = new PrintStream(client.getOutputStream());
+			//创建输入流对象
+			DataInputStream in = new DataInputStream(client.getInputStream());
+			//读取浏览器提交的请求
+			String content = in.readLine();
+			System.out.println(content);
+			String msg = content;
+			while((content = in.readLine())!=null){
+				
+				if(content.length() == 0){
+					break;
+				}
+				System.out.println(content);
+			}
+			
+			//获取文件路径
+			String fileName = getResourcePath(msg);
+			System.out.println("The user asked for resource: "+fileName);
+			File file = new File(fileName);
+			
+			if(file.exists()){//
+				//根据响应报文格式设置
+				System.out.println(fileName+" start send");
+				
+				out.println("HTTP/1.0 200 OK"); 
+				out.println("MIME_version:1.0");
+				out.println("Content_Type:text/html");
+				int len = (int) file.length();
+				out.println("Content_Length:"+len);
+				out.println("");//报文头和信息之间要空一行
+				
+				//发送文件
+				sendFile(out,file);
+				System.out.println(out);
+				out.flush();
+			}
+			else{
+				System.out.println("can't find File");
+				
+					out.println("HTTP/1.0 200 OK"); 
+					out.println("MIME_version:1.0");
+					out.println("Content_Type:text/html");
+					
+					String response = "this is 0 " + new Date();
+					
+					int len = response.length();
+					out.println("Content_Length:"+len);
+					out.println(response);
+					
+					out.println("");//报文头和信息之间要空一行
+				for(int i=1;i<5;i++){	
+					response = "this is "+ i + " " + new Date();
+					out.println(response);
+				}				
+				out.flush();
+			}
+			client.close();		
+		}
+		catch(Exception e){
+			System.out.println(e.getMessage());
+		}		
+	}
+	
+ 
+ 
+}

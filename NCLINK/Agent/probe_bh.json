@@ -1,0 +1,297 @@
+
+{
+	"configs" : 
+	[
+		
+		{
+			"creationTime" : "2018-04-08T10:19:34Z"
+		},
+		
+		{
+			"creationBy" : "NC_LINK_BH"
+		}
+	],
+	"description" : "A NC_LINK instance created by BH",
+	"devices" : 
+	[
+		
+		{
+			"components" : 
+			[
+				
+				{
+					"components" : 
+					[
+						
+						{
+							"dataItems" : 
+							[
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "x2",
+									"name" : "Xact",
+									"subtype" : "ACTUAL",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "x3",
+									"name" : "Xcom",
+									"subtype" : "COMMANDED",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "x4",
+									"name" : "Xfeedrata",
+									"subtype" : "ACTUAL",
+									"type" : "AXIS_FEEDRATE",
+									"units" : "MILLIMETER/MINUTE"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "x5",
+									"name" : "Xload",
+									"type" : "LOAD",
+									"units" : "PERCENT"
+								}
+
+							],
+							"id" : "x1",
+							"name" : "X",
+							"type" : "Linear"
+						},
+						
+						{
+							"dataItems" : 
+							[
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "y2",
+									"name" : "Yact",
+									"subtype" : "ACTUAL",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "y3",
+									"name" : "Ycom",
+									"subtype" : "COMMANDED",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "y4",
+									"name" : "Yfeedrata",
+									"subtype" : "ACTUAL",
+									"type" : "AXIS_FEEDRATE",
+									"units" : "MILLIMETER/MINUTE"
+								},
+
+								{
+									"category" : "SAMPLE",
+									"id" : "y5",
+									"name" : "Yload",
+									"type" : "LOAD",
+									"units" : "PERCENT"
+								}
+							],
+							"id" : "y1",
+							"name" : "Y",
+							"type" : "Linear"
+						},
+						
+						{
+							"dataItems" : 
+							[
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "z2",
+									"name" : "Zact",
+									"subtype" : "ACTUAL",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "z3",
+									"name" : "Zcom",
+									"subtype" : "COMMANDED",
+									"type" : "POSITION",
+									"units" : "MILLIMETER"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "z4",
+									"name" : "Zfeedrata",
+									"subtype" : "ACTUAL",
+									"type" : "AXIS_FEEDRATE",
+									"units" : "MILLIMETER/MINUTE"
+								},
+
+								{
+									"category" : "SAMPLE",
+									"id" : "z5",
+									"name" : "Zload",
+									"type" : "LOAD",
+									"units" : "PERCENT"
+								}
+								
+							],
+							"id" : "z1",
+							"name" : "Z",
+							"type" : "Linear"
+						},
+						
+						{
+							"dataItems" : 
+							[
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "c2",
+									"name" : "Sspeedact",
+									"subtype" : "ACTUAL",
+									"type" : "ROTARY_VELOCITY",
+									"units" : "REVOLUTION/MINUTE"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "c3",
+									"name" : "Sspeedcom",
+									"subtype" : "COMMANDED",
+									"type" : "ROTARY_VELOCITY",
+									"units" : "REVOLUTION/MINUTE"
+								},
+
+								{
+									"category" : "SAMPLE",
+									"id" : "c4",
+									"name" : "Sovr",
+									"subtype" : "OVERRIDE",
+									"type" : "ROTARY_VELOCITY",
+									"units" : "PERCENT"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "c5",
+									"name" : "Sload",
+									"type" : "LOAD",
+									"units" : "PERCENT"
+								}
+								
+							],
+							"id" : "c1",
+							"name" : "C",
+							"type" : "Rotary"
+						}
+					],
+					"description" : "a set of 3 axes",
+					"id" : "ax",
+					"name" : "Axes",
+					"type" : "Axes"
+				},
+
+				{
+					"components" : 
+					[
+						
+						{
+							"configs" : 
+							[
+								
+								{
+									"description" : "G代码文件名",
+									"id" : "gf",
+									"name" : "GCodeFile",
+									"type" : "string"
+								}
+							],
+							"dataItems" : 
+							[
+								{
+									"category" : "SAMPLE",
+									"id" : "gcode",
+									"name" : "GCode",
+									"type" : "SINGLE_BLOCK"
+								},
+								
+								{
+									"category" : "SAMPLE",
+									"id" : "codeline",
+									"name" : "GCodeLine",
+									"type" : "BLOCK"
+								}
+
+							],
+							"description" : "通道",
+							"id" : "pth",
+							"name" : "path",
+							"type" : "Path"
+						}
+					],
+					"dataItems" : 
+					[
+						
+					],
+					"description" : "Controller component",
+					"id" : "cn1",
+					"name" : "controller",
+					"type" : "Controller"
+				}
+			],
+			"configs" : 
+			[
+				
+				{
+					"version" : "2"
+				},
+				
+				{
+					"isoclassid" : "3"
+				},
+				
+				{
+					"manufacturer" : "Manufacturer's name"
+				},
+				
+				{
+					"description" : "Sample文件内容，用于数据采集项描述",
+					"id" : "sampleProbe",
+					"name" : "sampleProbe",
+					"setable" : true,
+					"type" : "SAMPLE_PROBE"
+				}
+			],
+			"dataItems" :
+			[
+
+			],
+			"description" : "SIEMENS 840D",
+			"id" : "840D_01",
+			"name" : "840D_01",
+			"type" : "NC_LINK_DEVICE",
+			"uuid" : "37168bc7-2f38-46c4-b3b6-8d8851e07263"
+		}
+	],
+	"id" : "NC_LINK_BH",
+	"name" : "NC_LINK_BH",
+	"type" : "NC_LINK_ROOT",
+	"uuid" : "37168bc7-2f38-46c4-b3b6-999999999999"
+}
